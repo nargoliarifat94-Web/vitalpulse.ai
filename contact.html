@@ -1,0 +1,20 @@
+<script src="https://cdn.tailwindcss.com"></script>
+<body class="bg-gradient-to-b from-emerald-100 to-white min-h-screen p-12">
+    <div class="max-w-xl mx-auto bg-white p-10 rounded-[50px] shadow-2xl border-t-8 border-teal-600">
+        <h2 class="text-3xl font-black text-teal-900 mb-6">Get In Touch</h2>
+        <p class="text-slate-500 mb-8">Hamari AI support team 24/7 available hai aapki help ke liye.</p>
+        
+        <form onsubmit="event.preventDefault(); alert('Message sent to VitalPulse Support!');">
+            <div class="mb-6">
+                <label class="block font-bold mb-2">Your Name</label>
+                <input type="text" required class="w-full p-4 bg-slate-50 border-none rounded-2xl focus:ring-2 focus:ring-teal-500 outline-none">
+            </div>
+            <div class="mb-6">
+                <label class="block font-bold mb-2">Message</label>
+                <textarea required class="w-full p-4 bg-slate-50 border-none rounded-2xl focus:ring-2 focus:ring-teal-500 outline-none h-32"></textarea>
+            </div>
+            <button class="w-full bg-teal-600 text-white py-4 rounded-2xl font-black text-xl hover:bg-teal-700 transition shadow-lg shadow-teal-200">Send Secure Message</button>
+        </form>
+        <p class="mt-6 text-center text-xs text-slate-400">Your data is 100% encrypted and safe with us.</p>
+    </div>
+</body>
